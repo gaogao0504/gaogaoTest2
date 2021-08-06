@@ -7,8 +7,10 @@
 4、定义一个start.py ，启动文件展示最终存款金额
 5、
 """
+import money
 from pythoncode.homework.money.send_money import send_money
 
 
 def select_money():
-    print(f'工资余额为：{send_money()}')
+    # print(f'工资余额为：{send_money()}')
+    print(f'工资为{money.saved_money}')

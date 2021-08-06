@@ -9,11 +9,12 @@
 """
 
 import money
+# 浅拷贝
 
 
 def send_money():
-    saved_money = money.saved_money + 1000
-    return saved_money
+    print('发工资啦')
+    money.saved_money = money.saved_money + 1000
+    # return saved_money
 
 
-print('发工资啦')

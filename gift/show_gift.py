@@ -1,5 +1,5 @@
 # from pythoncode.gift import have_gift
-import gift
+from pythoncode.gift import gift
 
 
 def show_gift():

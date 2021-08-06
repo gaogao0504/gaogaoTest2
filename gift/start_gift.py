@@ -1,7 +1,7 @@
 # 入口函数
 #  执行导包的时候也会执行一次方法
-from pythoncode.set_gift import send_gift
-from pythoncode.show_gift import show_gift
+from pythoncode.gift.set_gift import send_gift
+from pythoncode.gift.show_gift import show_gift
 # 访问所有的内置变量
 # print(locals())
 # --name = --main__ 的时候执行这个

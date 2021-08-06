@@ -6,7 +6,7 @@
 4、实现发完礼物之后，能展示礼物
 """
 # have_gift = False
-import gift
+from pythoncode.gift import gift
 
 
 def send_gift():
